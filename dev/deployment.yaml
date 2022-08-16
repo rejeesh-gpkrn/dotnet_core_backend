@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: rejeeshgpkrn/demo-backend:latest
+          image: rejeeshgpkrn/demo-backend:sample
           imagePullPolicy: Always
           ports:
             - name: http
